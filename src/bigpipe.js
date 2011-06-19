@@ -361,7 +361,7 @@
 	 * @var object $.BigPipe.pagelet
 	 */
 	$.BigPipe.pagelet = {
-		id:            'pagelet',//jQuery selector
+		id:            'pagelet',
 		html:          '',
 		js:            [],
 		css:           [],
