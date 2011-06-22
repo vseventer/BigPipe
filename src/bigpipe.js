@@ -185,7 +185,7 @@
 			
 			// Render HTML
 			setState(2);
-			that.target.html(that.options.html);//replace HTML
+			that.target.html(that.options.data);//replace HTML
 			setState(3);
 		};
 
@@ -362,7 +362,7 @@
 	 */
 	$.BigPipe.pagelet = {
 		id:            'pagelet',
-		html:          '',
+		data:          '',
 		js:            [],
 		css:           [],
 		onStateChange: function() { }

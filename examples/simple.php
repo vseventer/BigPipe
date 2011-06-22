@@ -28,7 +28,7 @@ function full_flush() {
 <script>
 BigPipe.onArrive({
 	id:   'test',
-	html: 'Bar',
+	data: 'Bar',
 	onStateChange: function(state, context) {
 		if(2 >= state) {//HTML not yet injected
 			context.target.html('Baz');
@@ -43,7 +43,7 @@ BigPipe.onArrive({
 <script>
 BigPipe.onArrive({
 	id:   'test2',
-	html: 'Bar2',
+	data: 'Bar2',
 	onStateChange: function(state, context) {
 		if(2 >= state) {//HTML not yet injected
 			context.target.html('Baz2');
